@@ -22,6 +22,8 @@ npx expo start --web
 
 [Recording](./docs/exiting-css-restart.webm). The dark readout is test instrumentation injected by Playwright, not part of the app. It shows the bar's CSS animation clock resetting to about 0 when Hide is pressed.
 
+[Recording with the fix applied](./docs/exiting-css-restart-fixed.webm): the clock and the bar keep going while the track fades out.
+
 ## Versions
 
 | Package | Version |
